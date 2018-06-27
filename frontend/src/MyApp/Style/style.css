@@ -1,0 +1,113 @@
+body{
+    background-color: darkslategrey;
+    text-align: -webkit-left;
+    padding: 30px 100px;
+}
+
+.Header{
+    background-color: white;
+    border: 7px solid white;
+    padding: 15px 50px;
+    box-shadow: 5px 5px 5px #888888;
+    border-radius: 10px;
+}
+
+.menu1{
+    display: flex;
+    justify-content: center;
+}
+
+.menuButton{
+    margin: 2px;
+    padding: 3px 6px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px #888888;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+.menuButton:hover{
+    background-color: (gray);
+}
+
+.gralButton{
+    background-color: darkturquoise;
+    box-shadow: 5px 5px 5px #888888;
+    border-radius: 10px;
+    width: 250px;
+    height: 30px;
+}
+
+.gralButton:hover{
+    background-color: paleturquoise;
+}
+
+.gralInput{
+    padding: 0px 5px;
+    background-color: pink;
+    height: 35px;
+    width: 70%;
+    font-size: 30px;
+    box-shadow: 5px 5px 5px #888888;
+    border-radius: 5px;
+}
+
+.gralApartment{
+    padding: 0px 5px;
+    background-color: turquoise;
+    height: 35px;
+    width: 70%;
+    font-size: 30px;
+    box-shadow: 5px 5px 5px #888888;
+    border-radius: 5px;
+}
+
+.gralAddress{
+    padding: 0px 5px;
+    background-color: turquoise;
+    height: 35px;
+    width: 70%;
+    font-size: 30px;
+    box-shadow: 5px 5px 5px #888888;
+    border-radius: 5px;
+}
+
+.gralCity{
+    padding: 0px 5px;
+    background-color: yellow;
+    height: 35px;
+    width: 70%;
+    font-size: 30px;
+    box-shadow: 5px 5px 5px #888888;
+    border-radius: 5px;
+}
+
+.gralState{
+    padding: 0px 5px;
+    background-color: green;
+    height: 35px;
+    width: 70%;
+    font-size: 30px;
+    box-shadow: 5px 5px 5px #888888;
+    border-radius: 5px;
+}
+
+.gralZip{
+    padding: 0px 5px;
+    background-color: lightgreen;
+    height: 35px;
+    width: 70%;
+    font-size: 30px;
+    box-shadow: 5px 5px 5px #888888;
+    border-radius: 5px;
+}
+
+.gralUnits{
+    padding: 0px 5px;
+    background-color: darkblue;
+    height: 35px;
+    width: 70%;
+    font-size: 30px;
+    box-shadow: 5px 5px 5px #888888;
+    border-radius: 5px;
+}

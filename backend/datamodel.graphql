@@ -1,0 +1,22 @@
+type Apartment {
+  id: ID! @unique
+  name: String! @unique
+  address: String!
+  city: String!
+  state: String!
+  zip: Int
+  totunits: Int
+  long: Int
+  lat: Int
+  mixes: [FloorPlan!]!
+}
+
+type FloorPlan {
+  id: ID! @unique
+  building: Apartment!
+  units: Int
+  beds: Int
+  baths: Int
+  squareFeet: Int
+  monthlyPrice: Int
+}
